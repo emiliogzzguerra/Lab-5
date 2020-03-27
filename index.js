@@ -15,7 +15,7 @@ const addItem = (ev) => {
                     e.target.parentElement.parentElement.querySelector('p').style.textDecoration = "line-through";
                 }
             }
-        })
+        }) 
         el.innerHTML = domString;
         list.prepend(el)
         form.querySelector('input').value = ''
