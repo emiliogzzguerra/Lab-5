@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+}
+
+header, main {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid violet;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+li > p {
+    margin-bottom: 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: flex-start;
+}
+
+button {
+    margin-right: 5px;
+}
